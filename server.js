@@ -5,7 +5,6 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-const app = express();
 const PORT = 3000;
 
 app.get("/roblox-stats/:universeId", async (req, res) => {
